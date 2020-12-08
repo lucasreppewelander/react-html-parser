@@ -6,7 +6,7 @@ Replace HTML with react components
 [![npm package][npm-badge]][npm]
 [![Coverage Status](https://coveralls.io/repos/github/lucasreppewelander/react-html-parser/badge.svg?branch=main)](https://coveralls.io/github/lucasreppewelander/react-html-parser?branch=main)
 
-[npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
+[npm-badge]: https://img.shields.io/npm/dw/react-replace-html?style=flat
 [npm]: https://www.npmjs.org/package/npm-package
 
 ## Installation
