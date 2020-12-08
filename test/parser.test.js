@@ -5,11 +5,7 @@ import "jest-enzyme";
 
 const TestComponent = ({ show, class: cls, children, ...restProps }) => {
   if (show) return <p>show</p>;
-  return (
-    <p {...restProps} rank="1" className={cls}>
-      hide
-    </p>
-  );
+  return <p rank="1">hide</p>;
 };
 
 const tags = (tag, props) => {
@@ -57,7 +53,7 @@ test("html without wrapper div and a replaced tag", () => {
   expect(wrapper).toHaveLength(2);
   expect(wrapper.get(0).tagName).toEqual("h3");
   expect(wrapper.eq(0).text()).toEqual("Title");
-  expect(wrapper.eq(-1).hasClass("team-overlay"));
+  expect(wrapper.eq(-1).attr("rank")).toEqual("1");
   expect(wrapper.eq(-1).text()).toEqual("hide");
 });
 
