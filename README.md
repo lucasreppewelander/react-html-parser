@@ -17,24 +17,27 @@ npm install --save react-replace-html
 
 ## Usage
 
-```
-import parse from 'react-replace-html';
+```js
+import parse from "react-replace-html";
 
 function RedComponent(props) {
-	return <span style={{ color: 'red', fontStyle: 'italic' }}>
-		{props.children} 🍕
-	</span>
+  return (
+    <span style={{ color: "red", fontStyle: "italic" }}>
+      {props.children} 🍕
+    </span>
+  );
 }
 
-const html = '<h3>Title</h3><p>Lorem <span class="red">ipsum</span> <span class="blue">dolor</span> sit amet</p>';
+const html =
+  '<h3>Title</h3><p>Lorem <span class="red">ipsum</span> <span class="blue">dolor</span> sit amet</p>';
 
 const replacer = (tag, props) => {
-	if (tag === 'span' && props.class === 'red') {
-		return <RedComponent {...props} />
-	}
+  if (tag === "span" && props.class === "red") {
+    return <RedComponent {...props} />;
+  }
 
-	return React.createElement(tag, props);
-}
+  return React.createElement(tag, props);
+};
 
 parse(html, replacer);
 ```
@@ -43,14 +46,14 @@ parse(html, replacer);
 
 #### replacer(tag, props)
 
-```
+```js
 const replacer = (tag, props) => {
-	if (tag === 'span' && props.class === 'red') {
-		return <RedComponent {...props} />
-	}
+  if (tag === "span" && props.class === "red") {
+    return <RedComponent {...props} />;
+  }
 
-	return React.createElement(tag, props);
-}
+  return React.createElement(tag, props);
+};
 ```
 
 ## License
