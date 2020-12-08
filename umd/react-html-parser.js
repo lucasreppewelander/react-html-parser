@@ -1,6 +1,6 @@
 /*!
  * react-html-parser v1.0.0
- * ISC Licensed
+ * MIT Licensed
  */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')

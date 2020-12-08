@@ -1,7 +1,7 @@
 {
-  "name": "react-html-parser",
+  "name": "react-replace-html",
   "version": "1.0.0",
-  "description": "Replace html with react components",
+  "description": "Replace HTML with react components",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -24,7 +24,9 @@
   "keywords": [
     "react",
     "html",
-    "parser"
+	"parser",
+	"parse",
+	"markup"
   ],
   "author": {
     "name": "Lucas Reppe Welander",
