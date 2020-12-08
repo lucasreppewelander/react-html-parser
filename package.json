@@ -1,13 +1,22 @@
 {
   "name": "react-html-parser",
   "version": "1.0.0",
-  "description": "",
+  "description": "Replace html with react components",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "",
+    "test": "jest"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react",
+    "html",
+    "parser"
+  ],
+  "author": {
+    "name": "Lucas Reppe Welander",
+    "email": "lucas@lrwm.se",
+    "url": "http://www.lrwm.se"
+  },
   "license": "ISC",
   "dependencies": {
     "node-html-parser": "^2.0.0"
@@ -16,10 +25,15 @@
     "react": "^16.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "babel-jest": "^26.6.3",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.5",
     "jest": "^26.6.3",
     "jest-enzyme": "^7.1.2",
+    "nwb": "^0.25.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
