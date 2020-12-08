@@ -1,5 +1,5 @@
 /*!
- * react-replace-html v1.0.1
+ * react-replace-html v1.0.2
  * MIT Licensed
  */
 (function webpackUniversalModuleDefinition(root, factory) {
