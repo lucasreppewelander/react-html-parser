@@ -1,6 +1,6 @@
 import React from "react";
 import { shallow, render, mount } from "enzyme";
-import parser, { ParserComponent } from "../src/parser";
+import parser, { ParserComponent } from "../src";
 import "jest-enzyme";
 
 const TestComponent = ({ show, class: cls, children, ...restProps }) => {
