@@ -7,11 +7,11 @@ Replace HTML with react components
 [![Coveralls][coveralls-badge]][coveralls]
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
-[build]: https://travis-ci.org/user/repo
+[build]: https://travis-ci.org/github/lucasreppewelander/react-html-parser
 [npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
 [npm]: https://www.npmjs.org/package/npm-package
 [coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/user/repo
+[coveralls]: https://coveralls.io/github/lucasreppewelander/react-html-parser
 
 ## Installation
 
@@ -56,3 +56,7 @@ const replacer = (tag, props) => {
 	return React.createElement(tag, props);
 }
 ```
+
+## License
+
+[MIT](https://github.com/lucasreppewelander/react-html-parser/blob/main/LICENSE)
