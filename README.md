@@ -4,14 +4,12 @@ Replace HTML with react components
 
 [![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
-[![Coveralls][coveralls-badge]][coveralls]
+[![Coverage Status](https://coveralls.io/repos/github/lucasreppewelander/react-html-parser/badge.svg?branch=main)](https://coveralls.io/github/lucasreppewelander/react-html-parser?branch=main)
 
-[build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
+[build-badge]: https://img.shields.io/travis/lucasreppewelander/react-html-parser/main.png?style=flat-square
 [build]: https://travis-ci.org/github/lucasreppewelander/react-html-parser
 [npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
 [npm]: https://www.npmjs.org/package/npm-package
-[coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/lucasreppewelander/react-html-parser
 
 ## Installation
 
