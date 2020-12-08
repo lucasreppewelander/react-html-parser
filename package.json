@@ -15,7 +15,7 @@
     "clean": "nwb clean-module && nwb clean-demo",
     "prepublishOnly": "npm run build",
     "start": "nwb serve-react-demo",
-    "test": "nwb test-react",
+    "test": "jest",
     "test:coverage": "nwb test-react --coverage",
 	"test:watch": "nwb test-react --server",
 	"publish-npm:beta": "npm publish --tag=next",
