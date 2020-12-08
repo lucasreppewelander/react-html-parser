@@ -1,5 +1,3 @@
-sudo: false
-
 language: node_js
 node_js:
   - 10
@@ -14,3 +12,9 @@ after_success:
 branches:
   only:
     - main
+
+cache:
+  directories:
+    - node_modules
+script:
+  - npm test
